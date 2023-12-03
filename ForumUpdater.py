@@ -15,11 +15,11 @@ class ForumUpdater: # subclass discord.Bot
     global data
     global message_ceo
     global debug
-    
+
     timestamp = 0 #Переменная для времени по умолчанию, НЕ ТРОГАТЬ!
 
-    message_ceo:str = "1179848493746102302" #Id главного сообщения в ветке управления
-    debug:bool = 0  #Переменная для вывода времени в терминал, при 1 - включено
+    message_ceo = "1179848493746102302" #Id главного сообщения в ветке управления
+    debug = 1  #Переменная для вывода времени в терминал, при 1 - включено
 
     async def timestamps(self):
         global timestamp
