@@ -3,7 +3,7 @@ from discord.ext import commands
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from datetime import datetime
 
-#48 и 82 строки - время реактивации веток
+#49 и 83 строки - время реактивации веток
 class ForumUpdater: # subclass discord.Bot
     def __init__(self, bot):
         self.bot: commands.Bot = bot
