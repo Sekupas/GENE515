@@ -13,7 +13,6 @@ class MyBot(commands.Bot):
         # подсоединяем модуль
         module = ForumUpdater(self)
         self.add_listener(module.on_ready)
-        self.add_listener(module.on_raw_message_edit)
         #self.tree.copy_global_to(guild=discord.Object(id=974022203987357766))
         #await self.tree.sync()
         print("Синхронизация модулей")
